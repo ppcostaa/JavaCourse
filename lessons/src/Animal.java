@@ -17,7 +17,7 @@ public class Animal {
             this.isDomestic = isDomestic;
         };
         public void info(){
-            System.out.println("This is " + name);
+            System.out.println("Look! This is " + name);
             System.out.println("It is a " + type);
             System.out.println("It is " + age + " years old");
             System.out.println("It has a " + color + " color");
@@ -39,5 +39,9 @@ public class Animal {
         public void walk(){
             System.out.println("Walking...");
         }
+
+    public void move() {
+
+    }
 
 }
